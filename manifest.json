@@ -7,7 +7,7 @@
         "128": "/img/icons/icon_128.png" 
     },
 
-    "description": "Yay, I'm so useless.",
+    "description": "Change Google result page showing PHP manual contents",
     
     "permissions": [
       "http://*.google.es/search*",
