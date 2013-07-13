@@ -1,0 +1,33 @@
+div.refsect1 {
+	position: relative;
+	background-color: #eeeef6;
+	padding: .75em;
+	margin-top: 3em;
+	color: #444;
+	border-top: 0.2em solid #669;
+}
+
+.methodsynopsis, .docs .refentry .constructorsynopsis {
+	border: 1px solid #ccc;
+	background-color: #fff;
+	padding: .75em;
+}
+.docs .example-contents .phpcode code, .docs .refentry .methodsynopsis, .docs .example-contents.screen, .docs .refentry .methodsynopsis, .docs .refentry .constructorsynopsis {
+	border: 1px solid #ccc;
+	background-color: #fff;
+	padding: .75em;
+}
+.docs .refentry .constructorsynopsis, .docs .refentry .methodsynopsis {
+	color: #666;
+	font-family: monospace;
+	font-size: 1.230769em;
+	margin: -1px 0;
+}
+
+.phpManual-transformed {
+	background: #eeeef6;
+	padding: 1em;
+}
+#receiverButton {
+	display: none;
+}

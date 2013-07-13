@@ -1,0 +1,43 @@
+{
+    "name": "PHP manual on Google",
+    "version": "0.1",
+    "icons": { 
+        "16": "/img/icons/icon_16.png",
+        "48": "/img/icons/icon_48.png",
+        "128": "/img/icons/icon_128.png" 
+    },
+
+    "description": "Yay, I'm so useless.",
+    
+    "permissions": [
+      "http://*.google.es/search*",
+      "https://*.google.es/search*",
+      "http://php.net/*"
+    ],
+
+
+    "content_scripts": [
+        {
+            "matches": [
+                "http://*.google.es/search*",
+                "https://*.google.es/search*"
+            ],
+            "js": [
+                "/vendors/jquery.js", 
+                "/main.js"
+            ],
+            "css": [
+                "/style.css"
+            ],
+            "run_at": "document_end"
+        }
+    ],
+
+    "sandbox": {
+        "pages": [
+          "preview.html"
+        ]
+    },
+
+    "manifest_version": 2
+}
